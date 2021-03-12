@@ -39,4 +39,6 @@ Página web de E-Comerce para un emprendimiento de venta de calzado multimarca.
 [http://championes.herokuapp.com](http://championes.herokuapp.com/)
 
 
-## Repositorio Dashboard
+## Repositorio Principal
+
+https://github.com/ArielNunez/CN23-Grupo3
