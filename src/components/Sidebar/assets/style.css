@@ -1,7 +1,7 @@
 .admin {
     display: flex;
     flex-direction: column;
-    background-color: #aeaeae;
+    background-color: #4a4a4a;
     padding: 20px;
     align-items: center;
 }
@@ -50,5 +50,5 @@
 }
 
 .admin a:hover {
-    color: #527293;
+    color: #BF488D;
 }

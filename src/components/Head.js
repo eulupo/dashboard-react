@@ -5,7 +5,7 @@ function Head() {
         <head>
             <meta charset="utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <title>Championesorporate Dashboard - Admin</title>
+            <title>Championes Admin</title>
         
             
             <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet"/>
@@ -13,6 +13,7 @@ function Head() {
         
             
             <link href="assets/css/app.css" rel="stylesheet"/>
+            <link rel="stylesheet" href="assets/css/style.css"/>
         </head>
     )
 }

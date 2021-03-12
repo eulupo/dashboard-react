@@ -1,6 +1,11 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
+
+const apiProducts = 'http://championes.herokuapp.com/api/productos';
 
 function Tabla() {
+    
+
+
     return (
         <div class="card-body">
             <div class="table-responsive">
@@ -12,7 +17,6 @@ function Tabla() {
                             <th>Precio</th>
                             <th>Categoria</th>
                             <th>Talles</th>
-                            <th>Stock</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -34,7 +38,6 @@ function Tabla() {
                                     <li><span class="text-success">Green</span></li>
                                 </ul>
                             </td>
-                            <td>245</td>
                         </tr>
                         <tr>
                             <td>Jane Doe</td>
@@ -54,7 +57,6 @@ function Tabla() {
                                     <li><span class="text-success">Green</span></li>
                                 </ul>
                             </td>
-                            <td>245</td>
                         </tr>
                     </tbody>
                 </table>

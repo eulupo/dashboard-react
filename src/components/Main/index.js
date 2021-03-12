@@ -10,9 +10,8 @@ function Main() {
         <div className="container-fluid">
             <Heading/>
 
-            <div className="row">
-                <Cantidades/>
-            </div>
+            
+            <Cantidades/>
 
             <div className="row">
                 <Ultimo/>
