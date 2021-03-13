@@ -43,7 +43,7 @@ function Ultimo() {
                 </div>
                 <div className="card-body">
                     <div className="text-center">
-                        <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: '15rem'}} src={'http://localhost:3001/img/uploads/productimage/' + imagen} alt="ultimo producto"/>
+                        <img className="img-fluid px-3 px-sm-4 mt-3 mb-4 img-championes" style={{width: '15rem'}} src={'http://localhost:3001/img/uploads/productimage/' + imagen} alt="ultimo producto"/>
                     </div>
                     <p>{descripcion}</p>
                     <a className="color-championes" target="_blank" rel="nofollow" href={"http://championes.herokuapp.com/productos/detalle/" + id}>Detalle del producto</a>

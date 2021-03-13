@@ -1,11 +1,7 @@
-import React, {useState, useEffect } from 'react';
-
-const apiProducts = 'http://championes.herokuapp.com/api/productos';
+import React from 'react';
+import Productos from './Productos';
 
 function Tabla() {
-    
-
-
     return (
         <div class="card-body">
             <div class="table-responsive">
@@ -20,44 +16,7 @@ function Tabla() {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Tiger Nixon</td>
-                            <td>System Architect</td>
-                            <td>$320,800</td>
-                            <td>
-                                <ul>
-                                    <li>Category 01</li>
-                                    <li>Category 02</li>
-                                    <li>Category 03</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul>
-                                    <li><span class="text-danger">Red</span></li>
-                                    <li><span class="text-primary">Blue</span></li>
-                                    <li><span class="text-success">Green</span></li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Jane Doe</td>
-                            <td>Fullstack developer</td>
-                            <td>$320,800</td>
-                            <td>
-                                <ul>
-                                    <li>Category 01</li>
-                                    <li>Category 02</li>
-                                    <li>Category 03</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul>
-                                    <li><span class="text-danger">Red</span></li>
-                                    <li><span class="text-primary">Blue</span></li>
-                                    <li><span class="text-success">Green</span></li>
-                                </ul>
-                            </td>
-                        </tr>
+                        <Productos/>
                     </tbody>
                 </table>
             </div>
@@ -66,8 +25,3 @@ function Tabla() {
 }
 
 export default Tabla;
-
-
-
-
-    

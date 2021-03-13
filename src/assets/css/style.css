@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap");
 
 * {
-font-family: 'Roboto';    
+    font-family: 'Roboto';    
 }
 
 .m-0 {
@@ -14,10 +14,27 @@ font-family: 'Roboto';
     background-color: #dc64aa;
 }
 
+.categoria {
+    max-width: 90%;
+    margin: auto;
+}
+
 .color-championes {
     color: #BF488D;
 }
 
 a.color-championes:hover {
     color: #dc64aa;
+}
+
+.img-championes {
+    margin: 0px!important;
+}
+
+p {
+    margin-bottom: .5rem;
+}
+
+td {
+    font-size: .7rem;
 }
