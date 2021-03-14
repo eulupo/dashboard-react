@@ -38,3 +38,12 @@ p {
 td {
     font-size: .7rem;
 }
+
+.lista-championes {
+    padding: 0px;
+    margin: 0px;
+}
+
+.item-championes {
+    list-style: none;
+}

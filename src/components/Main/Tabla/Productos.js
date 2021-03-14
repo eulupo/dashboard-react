@@ -24,7 +24,11 @@ function Productos() {
                             <td>${producto.precio}</td>
                             <td>{producto.categoria}</td>
                             <td>
-                                talles
+                                <ul className="lista-championes">
+                                    {
+                                        producto.talles.map((talle, i) => <li className="item-championes" key={i}>{talle.talle}</li>)
+                                    }
+                                </ul>
                             </td>
                         </tr>
                     )
