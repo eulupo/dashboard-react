@@ -1,5 +1,6 @@
 import React from 'react';
 import Productos from './Productos';
+import './assets/style.css';
 
 function Tabla() {
     return (
@@ -9,10 +10,10 @@ function Tabla() {
                     <thead>
                         <tr>
                             <th>Nombre</th>
-                            <th>Descripcion</th>
+                            <th className='display-none'>Descripcion</th>
                             <th>Precio</th>
-                            <th>Categoria</th>
-                            <th>Talles</th>
+                            <th className='display-none'>Categoria</th>
+                            <th className='display-none'>Talles</th>
                         </tr>
                     </thead>
                     <tbody>

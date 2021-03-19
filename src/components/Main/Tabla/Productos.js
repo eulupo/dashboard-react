@@ -20,10 +20,10 @@ function Productos() {
                     return (
                         <tr key={i}>
                             <td>{producto.producto}</td>
-                            <td>{producto.descripcion}</td>
+                            <td className="display-none">{producto.descripcion}</td>
                             <td>${producto.precio}</td>
-                            <td>{producto.categoria}</td>
-                            <td>
+                            <td className='display-none'>{producto.categoria}</td>
+                            <td className='display-none'>
                                 <ul className="lista-championes">
                                     {
                                         producto.talles.map((talle, i) => <li className="item-championes" key={i}>{talle.talle}</li>)

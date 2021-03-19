@@ -1,54 +1,11 @@
-.admin {
-    display: flex;
-    flex-direction: column;
-    background-color: #4a4a4a;
-    padding: 20px;
-    align-items: center;
+/* ===============
+    SIDEBAR
+================ */
+
+.sidebar {
+    background-color: black;
 }
 
-.admin img {
-    width: 50%;
-}
-
-.admin .administracion {
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-}
-
-.admin .productos,
-.admin .usuarios {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-}
-
-.admin .usuarios {
-    margin-top: 80px;
-}
-
-.admin h3 {
-    font-size: 20px;
-    color: #BF488D;    
-    padding-bottom: 10px;
-}
-
-.admin ul {
-    padding: 0px;
-}
-
-
-.admin li {
-    list-style: none;
-    padding-top: 10px;
-}
-
-.admin a {
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-}
-
-.admin a:hover {
-    color: #BF488D;
+.sidebar .sidebar-brand div.sidebar-brand-text {
+    margin-left: 0.3rem!important;
 }

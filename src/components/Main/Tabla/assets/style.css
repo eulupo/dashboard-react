@@ -1,0 +1,9 @@
+@media(max-width: 650px) {
+    table.table td, table.table th {
+        padding: .2rem;
+    }
+
+    td.display-none, th.display-none {
+        display: none;
+    }
+}
