@@ -3,9 +3,13 @@
 ================ */
 
 .sidebar {
-    background-color: black;
+    background-color: #3c3c3c;
 }
 
 .sidebar .sidebar-brand div.sidebar-brand-text {
     margin-left: 0.3rem!important;
+}
+
+.sidebar .nav-item a:hover {
+    color: #BF488D;
 }
