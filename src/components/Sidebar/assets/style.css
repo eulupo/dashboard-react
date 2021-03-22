@@ -10,6 +10,18 @@
     margin-left: 0.3rem!important;
 }
 
-.sidebar .nav-item a:hover {
-    color: #BF488D;
+.sidebar .nav-item a.nav-link:hover {
+    color:#BF488D
+}
+
+.sidebar .nav-item a.nav-link:hover i {
+    color:#BF488D
+}
+
+.sidebar .nav-item.active a.nav-link:hover {
+    color: #fff;
+}
+
+.sidebar .nav-item.active a.nav-link:hover i {
+    color:#fff;
 }

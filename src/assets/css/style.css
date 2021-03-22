@@ -6,6 +6,14 @@
     font-family: 'Roboto';    
 }
 
+.sidebar {
+    line-height: initial;
+}
+
+#wrapper #content-wrapper {
+    background-color: initial;
+}
+
 .m-0 {
     color: #5a5c69;
 }
