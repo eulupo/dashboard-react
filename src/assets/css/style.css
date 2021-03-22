@@ -59,3 +59,8 @@ td {
 .item-championes {
     list-style: none;
 }
+
+.admin-champ {
+    font-size: 20px;
+    color: #858796
+}
